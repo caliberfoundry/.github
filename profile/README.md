@@ -1,0 +1,30 @@
+﻿<p align="center">
+  <a href="https://caliberfoundry.github.io">
+    <img src="https://raw.githubusercontent.com/caliberfoundry/.github/main/assets/caliber-foundry-banner.svg" alt="Caliber Foundry — Principal Systems, Data Extraction & Turnkey Software Studio" width="100%" />
+  </a>
+</p>
+
+## Engineering Production-Grade Systems in Days, Not Quarters
+
+**Caliber Foundry** is a specialized software engineering and product studio focused on deterministic data extraction pipelines, multi-document enterprise verification workflows, and interactive regulatory simulation platforms.
+
+- **Live Studio Showcase:** [**https://caliberfoundry.github.io**](https://caliberfoundry.github.io)
+- **Flagship Product (CodeDrill™ CBT):** [**https://caliberfoundry.github.io/codedrill-cbt/**](https://caliberfoundry.github.io/codedrill-cbt/)
+
+---
+
+### Core Systems & Live Deployments
+
+| System / Platform | Domain | Architecture & Capabilities | Live Interactive Deployment |
+| :--- | :--- | :--- | :--- |
+| **StealthFlow™ Extraction Hub** | Data Engineering & Web ETL | 12-source concurrent Playwright & XHR/GraphQL extraction engine with Pydantic v2 schema enforcement, URL canonicalization, and HMAC-SHA256 webhook dispatch. | [**Launch StealthFlow™ ↗**](https://caliberfoundry.github.io/stealthflow/) |
+| **OmniRAG™ Document Studio** | Enterprise Document Systems | Deterministic multi-document (PDF, DOCX, XLSX) ingestion and graph-orchestrated verification with page- and cell-level citation grounding. | [**Launch OmniRAG™ ↗**](https://caliberfoundry.github.io/omnirag/) |
+| **EdTech & Clinical Assessment Studio** | EdTech & Regulatory Compliance | Client-side FERPA zero-PII WebCrypto AES-256-GCM assessment reasoning engine (TTL-MSM) & automated SCORM 1.2 package generator. | [**Launch EdTech Studio ↗**](https://caliberfoundry.github.io/edtech-studio/) |
+| **CodeDrill™ CBT Simulator** | Federal Licensing & CBT Simulation | 1:1 Pearson VUE split-screen exam simulator & citation-speed drill platform built on public-domain 19 CFR, HTSUS, and 31 CFR Part 10 corpora. | [**Launch CodeDrill™ CBT ↗**](https://caliberfoundry.github.io/codedrill-cbt/) |
+
+---
+
+### Technical Standards
+
+- **Zero-Fluff Proof-of-Concept Delivery:** Every system is shipped with live staging deployments, deterministic schema validation, and end-to-end automated browser verification.
+- **Core Stack:** TypeScript, Python (FastAPI, Playwright, Pydantic v2), Go (gRPC, mTLS), React / Next.js, PostgreSQL (pgvector), Cloudflare Workers / Durable Objects.

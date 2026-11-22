@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="55%" stop-color="#111D3B"/>
+      <stop offset="100%" stop-color="#070B19"/>
+    </linearGradient>
+    <linearGradient id="anvilAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="60%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="forgeGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Slate / Navy Rounded Monogram Base -->
+  <rect width="512" height="512" rx="96" fill="url(#bgGrad)"/>
+  <rect x="14" y="14" width="484" height="484" rx="84" fill="none" stroke="#1E293B" stroke-width="3"/>
+
+  <!-- Outer Precision Hexagonal Foundry Ring -->
+  <polygon points="256,48 436,152 436,360 256,464 76,360 76,152"
+           fill="none" stroke="url(#anvilAccent)" stroke-width="10" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Inner Precision Reticle Ticks (Caliber Motif) -->
+  <line x1="256" y1="48" x2="256" y2="74" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="256" y1="438" x2="256" y2="464" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="76" y1="256" x2="100" y2="256" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="412" y1="256" x2="436" y2="256" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Geometric "C" + Anvil Horn (Caliber Outer Frame) -->
+  <path d="M 326 142
+           L 204 142
+           L 144 202
+           L 144 310
+           L 204 370
+           L 326 370
+           L 326 326
+           L 222 326
+           L 190 294
+           L 190 218
+           L 222 186
+           L 326 186 Z"
+        fill="url(#steelGrad)"/>
+
+  <!-- Geometric "F" + Forge Core (Foundry Inner Bar) -->
+  <path d="M 244 216
+           L 372 216
+           L 352 252
+           L 284 252
+           L 284 274
+           L 344 274
+           L 326 306
+           L 284 306
+           L 284 370
+           L 244 370 Z"
+        fill="url(#anvilAccent)"/>
+
+  <!-- Molten Forge Spark / Precision Node -->
+  <polygon points="366,142 390,166 366,190 342,166" fill="url(#forgeGold)"/>
+</svg>

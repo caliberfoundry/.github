@@ -1,61 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
-  <defs>
-    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070B19"/>
-      <stop offset="50%" stop-color="#0F172A"/>
-      <stop offset="100%" stop-color="#0B132B"/>
-    </linearGradient>
-    <linearGradient id="accentBlue" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#2563EB"/>
-    </linearGradient>
-    <linearGradient id="steelText" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#CBD5E1"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.45"/>
-    </pattern>
-  </defs>
+  <rect width="1200" height="320" fill="#F6F4EF"/>
+  <rect x="8" y="8" width="1184" height="304" fill="none" stroke="#141413" stroke-width="2"/>
+  <rect x="16" y="16" width="1168" height="288" fill="none" stroke="#C9C4B8" stroke-width="1"/>
 
-  <rect width="1200" height="320" rx="20" fill="url(#bannerBg)"/>
-  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
-  <rect x="2" y="2" width="1196" height="316" rx="18" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <!-- Architectural Grid Hairlines -->
+  <line x1="280" y1="16" x2="280" y2="304" stroke="#C9C4B8" stroke-width="1"/>
+  <line x1="280" y1="72" x2="1184" y2="72" stroke="#C9C4B8" stroke-width="1"/>
+  <line x1="280" y1="228" x2="1184" y2="228" stroke="#C9C4B8" stroke-width="1"/>
+  <line x1="580" y1="228" x2="580" y2="304" stroke="#C9C4B8" stroke-width="1"/>
+  <line x1="880" y1="228" x2="880" y2="304" stroke="#C9C4B8" stroke-width="1"/>
 
-  <!-- Left Emblem -->
-  <g transform="translate(64, 54) scale(0.41)">
-    <polygon points="256,48 436,152 436,360 256,464 76,360 76,152"
-             fill="#0B132B" stroke="url(#accentBlue)" stroke-width="12" stroke-linejoin="round"/>
-    <line x1="256" y1="48" x2="256" y2="76" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
-    <line x1="256" y1="436" x2="256" y2="464" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
-    <line x1="76" y1="256" x2="104" y2="256" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
-    <line x1="408" y1="256" x2="436" y2="256" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
-    <path d="M 326 142 L 204 142 L 144 202 L 144 310 L 204 370 L 326 370 L 326 326 L 222 326 L 190 294 L 190 218 L 222 186 L 326 186 Z"
-          fill="url(#steelText)"/>
-    <path d="M 244 216 L 372 216 L 352 252 L 284 252 L 284 274 L 344 274 L 326 306 L 284 306 L 284 370 L 244 370 Z"
-          fill="url(#accentBlue)"/>
-    <polygon points="366,142 392,168 366,194 340,168" fill="#F59E0B"/>
+  <!-- Top Telemetry Spec Bar -->
+  <text x="304" y="48" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="12" font-weight="600" fill="#78756D" letter-spacing="2">SPEC // CF-2026-REV4 — SYSTEMS, DATA EXTRACTION &amp; SIMULATION ENGINEERING</text>
+  <rect x="1038" y="30" width="126" height="26" fill="#141413"/>
+  <text x="1052" y="47" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="11" font-weight="600" fill="#F6F4EF" letter-spacing="1.5">EST. US // REMOTE</text>
+
+  <!-- Left Monogram Seal -->
+  <g transform="translate(46, 62) scale(0.38)">
+    <rect width="512" height="512" fill="#FFFFFF" stroke="#141413" stroke-width="8"/>
+    <path d="M 332 116 L 172 116 L 116 172 L 116 340 L 172 396 L 332 396 L 332 336 L 196 336 L 176 316 L 176 196 L 196 176 L 332 176 Z" fill="#141413"/>
+    <path d="M 236 212 L 396 212 L 372 260 L 292 260 L 292 288 L 360 288 L 340 332 L 292 332 L 292 396 L 236 396 Z" fill="#141413"/>
+    <rect x="348" y="116" width="48" height="60" fill="#C8431F"/>
   </g>
 
-  <!-- Brand Typography -->
-  <text x="310" y="128" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#F8FAFC" letter-spacing="1.5">CALIBER FOUNDRY</text>
-  <text x="312" y="168" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="600" fill="#38BDF8" letter-spacing="2.5">PRINCIPAL SYSTEMS, DATA EXTRACTION &amp; TURNKEY SOFTWARE STUDIO</text>
+  <!-- Editorial Brand Title -->
+  <text x="304" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="400" fill="#141413" letter-spacing="-0.5">Caliber Foundry</text>
+  <rect x="742" y="106" width="10" height="10" fill="#C8431F"/>
+  <text x="306" y="188" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif" font-size="17" font-weight="500" fill="#4A4842" letter-spacing="0.2">Deterministic data pipelines, multi-document citation systems, and regulatory simulation platforms.</text>
 
-  <!-- Divider -->
-  <line x1="312" y1="194" x2="1120" y2="194" stroke="#1E293B" stroke-width="2"/>
+  <!-- Bottom 3 Swiss Grid Specification Cells -->
+  <text x="304" y="256" font-family="'IBM Plex Mono', monospace" font-size="11" font-weight="600" fill="#C8431F" letter-spacing="1.5">01 // EXTRACTION &amp; ETL</text>
+  <text x="304" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#141413">StealthFlow™ 12-Source Engine</text>
 
-  <!-- Capability Pills -->
-  <g transform="translate(312, 218)">
-    <rect x="0" y="0" width="245" height="40" rx="8" fill="#111D3B" stroke="#1E3A8A" stroke-width="1.5"/>
-    <circle cx="20" cy="20" r="5" fill="#38BDF8"/>
-    <text x="36" y="25" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">Turnkey SaaS &amp; Enterprise Systems</text>
+  <text x="604" y="256" font-family="'IBM Plex Mono', monospace" font-size="11" font-weight="600" fill="#C8431F" letter-spacing="1.5">02 // DOCUMENT VERIFICATION</text>
+  <text x="604" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#141413">OmniRAG™ Citation Workstation</text>
 
-    <rect x="262" y="0" width="265" height="40" rx="8" fill="#111D3B" stroke="#1E3A8A" stroke-width="1.5"/>
-    <circle cx="282" cy="20" r="5" fill="#10B981"/>
-    <text x="298" y="25" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">High-Scale Stealth Scraping &amp; ETL</text>
-
-    <rect x="544" y="0" width="275" height="40" rx="8" fill="#111D3B" stroke="#1E3A8A" stroke-width="1.5"/>
-    <circle cx="564" cy="20" r="5" fill="#F59E0B"/>
-    <text x="580" y="25" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">Simulation, EdTech &amp; CBT Platforms</text>
-  </g>
+  <text x="904" y="256" font-family="'IBM Plex Mono', monospace" font-size="11" font-weight="600" fill="#C8431F" letter-spacing="1.5">03 // FEDERAL CBT &amp; EDTECH</text>
+  <text x="904" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#141413">CodeDrill™ &amp; Clinical TTL-MSM</text>
 </svg>

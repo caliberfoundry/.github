@@ -8,8 +8,9 @@
 
 **Caliber Foundry** is a specialized software engineering and product studio focused on deterministic data extraction pipelines, multi-document enterprise verification workflows, and interactive regulatory simulation platforms.
 
-- **Live Studio Showcase:** [**https://caliberfoundry.github.io**](https://caliberfoundry.github.io)
+- **Studio Showcase:** [**https://caliberfoundry.github.io**](https://caliberfoundry.github.io)
 - **Flagship Product (CodeDrill™ CBT):** [**https://caliberfoundry.github.io/codedrill-cbt/**](https://caliberfoundry.github.io/codedrill-cbt/)
+- **Direct Engineering & Project Intake:** [**engineering@caliberfoundry.com**](mailto:engineering@caliberfoundry.com)
 
 ---
 
@@ -24,7 +25,8 @@
 
 ---
 
-### Technical Standards
+### Technical Standards & Contact
 
 - **Zero-Fluff Proof-of-Concept Delivery:** Every system is shipped with live staging deployments, deterministic schema validation, and end-to-end automated browser verification.
 - **Core Stack:** TypeScript, Python (FastAPI, Playwright, Pydantic v2), Go (gRPC, mTLS), React / Next.js, PostgreSQL (pgvector), Cloudflare Workers / Durable Objects.
+- **Inquiries & Contract Sprints:** [engineering@caliberfoundry.com](mailto:engineering@caliberfoundry.com)
